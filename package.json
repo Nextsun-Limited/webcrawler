@@ -1,0 +1,26 @@
+{
+  "name": "sitemap-webcrawler",
+  "version": "0.0.0",
+  "description": "Webcrawler for Node.js",
+  "main": "crawler.js",
+  "author": "Rafael Bustamante Daza",
+  "license": "ISC",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.65.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
